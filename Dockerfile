@@ -27,7 +27,7 @@ RUN apt install -y libexif-dev
 
 # install libheif
 WORKDIR /home/node
-#RUN git clone https://github.com/strukturag/libheif.git -b v1.13.0
+#RUN git clone https://github.com/strukturag/libheif.git -b v1.17.6
 RUN git clone https://github.com/strukturag/libheif.git
 WORKDIR /home/node/libheif
 RUN mkdir build
