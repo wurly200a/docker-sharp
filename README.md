@@ -13,13 +13,6 @@ or
 docker build -t docker-sharp .
 ```
 
-## check
-
-```
-heif-convert --version
-heif-convert --list-decoders
-```
-
 ## run
 
 ```
@@ -30,6 +23,13 @@ or
 
 ```
 docker run --rm -it -v $(pwd):/home/node/work -w /home/node/work docker-sharp bash
+```
+
+check
+
+```
+heif-convert --version
+heif-convert --list-decoders
 ```
 
 ```
