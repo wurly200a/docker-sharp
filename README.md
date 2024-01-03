@@ -23,7 +23,16 @@ heif-convert --list-decoders
 ## run
 
 ```
+docker run --rm -it -v $(pwd):/home/node/work -w /home/node/work wurly/docker-sharp bash
+```
+
+or
+
+```
 docker run --rm -it -v $(pwd):/home/node/work -w /home/node/work docker-sharp bash
+```
+
+```
 npm install sharp
 ```
 
