@@ -13,6 +13,13 @@ or
 docker build -t docker-sharp .
 ```
 
+## check
+
+```
+heif-convert --version
+heif-convert --list-decoders
+```
+
 ## run
 
 ```
